@@ -1,0 +1,38 @@
+//button
+let btn = document.createElement("button");
+btn.innerHTML = "Save";
+btn.onclick = function () {
+  alert("Button clicked");
+};
+document.body.appendChild(btn);
+// or
+<div>
+      <p class="name">button1</p>
+      <button onclick="doSomething('whatever')" class="class">whatever</button>
+<div>
+// switch
+var = Day
+var = Week
+switch (new Date().getDay() .getWeek()) {
+  case 0:
+    day = "1 day";
+    break;
+  case 1:
+    day = "2 days";
+    break;
+  case 2:
+     day = "3 days";
+    break;
+  case 3:
+    day = "4 days";
+    break;
+  case 4:
+    day = "5 days";
+    break;
+  case 5:
+    day = "6 days";
+    break;
+  case 6:
+    day = "0 days"
+    break;
+}
